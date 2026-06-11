@@ -150,7 +150,7 @@ export default function OnboardingPage() {
           {step < 3 ? (
             <button
               onClick={() => setStep(step + 1)}
-              disabled={step === 1 && !goal || step === 2 && !schedule}
+              disabled={(step === 1 && !goal) || (step === 2 && !schedule)}
               className="flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 disabled:opacity-30 disabled:cursor-not-allowed text-black font-black px-8 py-4 rounded-2xl transition"
             >
               Next <ChevronRight size={20} />

@@ -9,10 +9,10 @@ export default function HomePage() {
       <nav className="flex items-center justify-between px-8 py-6 border-b border-white/10">
         <span className="text-2xl font-black tracking-tight text-emerald-400">WELLTRIBE</span>
         <div className="flex gap-4">
-          <Link href="/sign-in" className="text-sm text-gray-400 hover:text-white transition px-4 py-2">
+          <Link href="/dashboard" className="text-sm text-gray-400 hover:text-white transition px-4 py-2">
             Sign In
           </Link>
-          <Link href="/sign-up" className="text-sm bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-5 py-2 rounded-xl transition">
+          <Link href="/onboarding" className="text-sm bg-emerald-500 hover:bg-emerald-400 text-black font-bold px-5 py-2 rounded-xl transition">
             Get Started
           </Link>
         </div>
@@ -34,13 +34,13 @@ export default function HomePage() {
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Link
-            href="/sign-up"
+            href="/onboarding"
             className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-400 text-black font-black px-8 py-4 rounded-2xl text-lg transition"
           >
             Start Free Trial <ArrowRight size={20} />
           </Link>
           <Link
-            href="/sign-in"
+            href="/dashboard"
             className="inline-flex items-center gap-2 border border-white/20 hover:border-white/40 text-white px-8 py-4 rounded-2xl text-lg font-semibold transition"
           >
             Sign In
