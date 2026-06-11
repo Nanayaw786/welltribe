@@ -1,7 +1,7 @@
 
 "use client";
 import { useState } from "react";
-import { Flame, CheckCircle, XCircle, Users, Trophy, Brain, BarChart2, Send, MessageCircle } from "lucide-react";
+import { Flame, CheckCircle, XCircle, Users, Trophy, Brain, BarChart2, Send } from "lucide-react";
 import Link from "next/link";
 
 const FEED = [

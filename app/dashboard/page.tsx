@@ -138,8 +138,7 @@ export default function DashboardPage() {
             AI Coach
           </div>
           <p className="text-gray-300 text-sm leading-relaxed">
-            "You have been consistent for 9 days straight — that puts you in the top 15% of your pod. 
-            Keep this momentum through the weekend, that is when most people slip."
+            &quot;You have been consistent for 9 days straight &mdash; that puts you in the top 15% of your pod. Keep this momentum through the weekend, that is when most people slip.&quot;
           </p>
         </div>
 
